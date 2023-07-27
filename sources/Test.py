@@ -49,12 +49,14 @@ mail_content = f"{custom_message}<html><body>{html_table}</body></html>"
 
 sender_address = 'rahul.vimal@timesinternet.in'
 sender_pass = 'xdoafioynpdbjapw' ## This is gmail app password for the above email id
-receiver_address = 'rahul.vimal@timesinternet.in'
+# List of multiple receiver email addresses
+receiver_address = ['rahul.vimal@timesinternet.in','shivam.dixit@timesinternet.in']
 
 # Setup the MIME
 message = MIMEMultipart()
 message['From'] = sender_address
-message['To'] = receiver_address
+#message['To'] = receiver_address
+message['To'] = ', '.join(receiver_address)  # Join multiple addresses with comma and space
 message['Subject'] = 'New Campaigns Created in last 7 days'
 
 # Attach the email body
@@ -79,3 +81,4 @@ session.sendmail(sender_address, receiver_address, text)
 session.quit()
 
 print('Mail Sent')
+
