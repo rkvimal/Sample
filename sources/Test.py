@@ -47,8 +47,8 @@ custom_message = "Hello,<br><br>Below is the Statuswise summary of RO's created 
 mail_content = f"{custom_message}<html><body>{html_table}</body></html>"
 
 
-sender_address = 'rahul.vimal@timesinternet.in'
-sender_pass = 'xdoafioynpdbjapw' ## This is gmail app password for the above email id
+sender_address = 'expresso.services@timesinternet.in'
+sender_pass = 'mvnjyuloecykeovl' ## This is gmail app password for the above email id
 # List of multiple receiver email addresses
 receiver_address = ['rahul.vimal@timesinternet.in','shivam.dixit@timesinternet.in']
 
