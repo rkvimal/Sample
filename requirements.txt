@@ -1,9 +1,3 @@
 pandas
-smtplib==3.9
-MIMEMultipart
-MIMEText
-MIMEBase
-encoders
 mysql.connector
-SSHTunnelForwarder
 json
