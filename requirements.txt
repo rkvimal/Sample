@@ -1,0 +1,9 @@
+pandas
+smtplib
+MIMEMultipart
+MIMEText
+MIMEBase
+encoders
+mysql.connector
+SSHTunnelForwarder
+json
