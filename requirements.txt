@@ -1,5 +1,5 @@
 pandas
-smtplib
+smtplib 3.9
 MIMEMultipart
 MIMEText
 MIMEBase
